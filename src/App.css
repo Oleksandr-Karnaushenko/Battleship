@@ -1,0 +1,109 @@
+.board {
+  width: 370px;
+  height: 370px;
+  display: flex;
+  flex-wrap: wrap;
+  border: black solid 2px;
+}
+.box {
+  width: 35px;
+  height: 35px;
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box img {
+  width: 35px;
+  height: 35px;
+}
+.water {
+  background-color: rgb(66, 66, 238);
+  text-align: center;
+}
+.miss {
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  background: rgb(29, 28, 28);
+}
+.miss1 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  background: rgb(90, 89, 89);
+}
+.ship {
+  background-color: green;
+  text-align: center;
+}
+.die{
+  background-color: red;
+}
+.hurtb {
+  border-color: red;
+}
+.App {
+  background-color: rgb(202, 245, 243);
+}
+.GameBoard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.name {
+  text-align: center;
+}
+.radio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info{
+    padding: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+.green{
+    color: green;
+}
+.registr{
+    padding-top: 50px;
+    text-align: center;
+}
+.btn{
+  height: 40px;
+  width: 100px;
+  background-color: rgb(159, 241, 159);
+  margin: 5px;
+}
+.btnStart{
+  height: 50px;
+  width: 120px;
+  background-color: lawngreen;
+  font-size: large;
+  margin-bottom: 5px;
+}
+.menuB{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 220px;
+}
+.menu{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.shipImg{
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.shipImg p{
+  font-size: large;
+}
